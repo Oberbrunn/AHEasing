@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80521A7A1398175D007386E6 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 80521A791398175D007386E6 /* CAKeyframeAnimation+AHEasing.m */; };
+		80521A7E1398179C007386E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80521A7D1398179C007386E6 /* QuartzCore.framework */; };
+		806EB7F0138F91A700E2D4A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EB7EF138F91A700E2D4A7 /* UIKit.framework */; };
+		806EB7F2138F91A700E2D4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EB7F1138F91A700E2D4A7 /* Foundation.framework */; };
+		806EB7F4138F91A700E2D4A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EB7F3138F91A700E2D4A7 /* CoreGraphics.framework */; };
+		806EB7FA138F91A700E2D4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806EB7F8138F91A700E2D4A7 /* InfoPlist.strings */; };
+		806EB7FD138F91A700E2D4A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EB7FC138F91A700E2D4A7 /* main.m */; };
+		806EB800138F91A700E2D4A7 /* AHEasingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EB7FF138F91A700E2D4A7 /* AHEasingAppDelegate.m */; };
+		806EB803138F91A700E2D4A7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 806EB801138F91A700E2D4A7 /* MainWindow.xib */; };
+		806EB806138F91A700E2D4A7 /* PlaygroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EB805138F91A700E2D4A7 /* PlaygroundViewController.m */; };
+		806EB809138F91A700E2D4A7 /* PlaygroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 806EB807138F91A700E2D4A7 /* PlaygroundView.xib */; };
+		806EB82A138F91C700E2D4A7 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 806EB828138F91C700E2D4A7 /* easing.c */; };
+		80913CD41399414800FE19D5 /* EasingFunctionGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80913CD31399414800FE19D5 /* EasingFunctionGraphView.m */; };
+		80913CD7139960F100FE19D5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80913CD5139960F100FE19D5 /* Icon.png */; };
+		80913CD8139960F100FE19D5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80913CD6139960F100FE19D5 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80521A781398175D007386E6 /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
+		80521A791398175D007386E6 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
+		80521A7D1398179C007386E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		806EB7EB138F91A700E2D4A7 /* AHEasing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHEasing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806EB7EF138F91A700E2D4A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		806EB7F1138F91A700E2D4A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		806EB7F3138F91A700E2D4A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		806EB7F7138F91A700E2D4A7 /* AHEasing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AHEasing-Info.plist"; sourceTree = "<group>"; };
+		806EB7F9138F91A700E2D4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		806EB7FB138F91A700E2D4A7 /* AHEasing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AHEasing-Prefix.pch"; sourceTree = "<group>"; };
+		806EB7FC138F91A700E2D4A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		806EB7FE138F91A700E2D4A7 /* AHEasingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHEasingAppDelegate.h; sourceTree = "<group>"; };
+		806EB7FF138F91A700E2D4A7 /* AHEasingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHEasingAppDelegate.m; sourceTree = "<group>"; };
+		806EB802138F91A700E2D4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		806EB804138F91A700E2D4A7 /* PlaygroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaygroundViewController.h; sourceTree = "<group>"; };
+		806EB805138F91A700E2D4A7 /* PlaygroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundViewController.m; sourceTree = "<group>"; };
+		806EB808138F91A700E2D4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PlaygroundView.xib; sourceTree = "<group>"; };
+		806EB828138F91C700E2D4A7 /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
+		806EB829138F91C700E2D4A7 /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
+		80913CD21399414800FE19D5 /* EasingFunctionGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasingFunctionGraphView.h; sourceTree = "<group>"; };
+		80913CD31399414800FE19D5 /* EasingFunctionGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasingFunctionGraphView.m; sourceTree = "<group>"; };
+		80913CD5139960F100FE19D5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		80913CD6139960F100FE19D5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806EB7E8138F91A700E2D4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80521A7E1398179C007386E6 /* QuartzCore.framework in Frameworks */,
+				806EB7F0138F91A700E2D4A7 /* UIKit.framework in Frameworks */,
+				806EB7F2138F91A700E2D4A7 /* Foundation.framework in Frameworks */,
+				806EB7F4138F91A700E2D4A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80521A7F13982633007386E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				806EB801138F91A700E2D4A7 /* MainWindow.xib */,
+				806EB807138F91A700E2D4A7 /* PlaygroundView.xib */,
+				80913CD21399414800FE19D5 /* EasingFunctionGraphView.h */,
+				80913CD31399414800FE19D5 /* EasingFunctionGraphView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		80521A801398263A007386E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				806EB7FE138F91A700E2D4A7 /* AHEasingAppDelegate.h */,
+				806EB7FF138F91A700E2D4A7 /* AHEasingAppDelegate.m */,
+				806EB804138F91A700E2D4A7 /* PlaygroundViewController.h */,
+				806EB805138F91A700E2D4A7 /* PlaygroundViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		80521A8113982642007386E6 /* Other Source */ = {
+			isa = PBXGroup;
+			children = (
+				806EB7FB138F91A700E2D4A7 /* AHEasing-Prefix.pch */,
+				806EB7FC138F91A700E2D4A7 /* main.m */,
+			);
+			name = "Other Source";
+			sourceTree = "<group>";
+		};
+		80521A821398268A007386E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80913CD5139960F100FE19D5 /* Icon.png */,
+				80913CD6139960F100FE19D5 /* Icon@2x.png */,
+				806EB7F7138F91A700E2D4A7 /* AHEasing-Info.plist */,
+				806EB7F8138F91A700E2D4A7 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		80521A83139826A8007386E6 /* Easing */ = {
+			isa = PBXGroup;
+			children = (
+				80521A781398175D007386E6 /* CAKeyframeAnimation+AHEasing.h */,
+				80521A791398175D007386E6 /* CAKeyframeAnimation+AHEasing.m */,
+				806EB829138F91C700E2D4A7 /* easing.h */,
+				806EB828138F91C700E2D4A7 /* easing.c */,
+			);
+			name = Easing;
+			sourceTree = "<group>";
+		};
+		806EB7E0138F91A700E2D4A7 = {
+			isa = PBXGroup;
+			children = (
+				806EB7F5138F91A700E2D4A7 /* AHEasing */,
+				806EB7EE138F91A700E2D4A7 /* Frameworks */,
+				806EB7EC138F91A700E2D4A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806EB7EC138F91A700E2D4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806EB7EB138F91A700E2D4A7 /* AHEasing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806EB7EE138F91A700E2D4A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				806EB7EF138F91A700E2D4A7 /* UIKit.framework */,
+				806EB7F1138F91A700E2D4A7 /* Foundation.framework */,
+				806EB7F3138F91A700E2D4A7 /* CoreGraphics.framework */,
+				80521A7D1398179C007386E6 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		806EB7F5138F91A700E2D4A7 /* AHEasing */ = {
+			isa = PBXGroup;
+			children = (
+				80521A801398263A007386E6 /* Controller */,
+				80521A7F13982633007386E6 /* View */,
+				80521A83139826A8007386E6 /* Easing */,
+				80521A8113982642007386E6 /* Other Source */,
+				80521A821398268A007386E6 /* Resources */,
+			);
+			path = AHEasing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806EB7EA138F91A700E2D4A7 /* AHEasing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806EB822138F91A700E2D4A7 /* Build configuration list for PBXNativeTarget "AHEasing" */;
+			buildPhases = (
+				806EB7E7138F91A700E2D4A7 /* Sources */,
+				806EB7E8138F91A700E2D4A7 /* Frameworks */,
+				806EB7E9138F91A700E2D4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHEasing;
+			productName = AHEasing;
+			productReference = 806EB7EB138F91A700E2D4A7 /* AHEasing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806EB7E2138F91A700E2D4A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Auerhaus Development, LLC";
+			};
+			buildConfigurationList = 806EB7E5138F91A700E2D4A7 /* Build configuration list for PBXProject "AHEasing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 806EB7E0138F91A700E2D4A7;
+			productRefGroup = 806EB7EC138F91A700E2D4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806EB7EA138F91A700E2D4A7 /* AHEasing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806EB7E9138F91A700E2D4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806EB7FA138F91A700E2D4A7 /* InfoPlist.strings in Resources */,
+				806EB803138F91A700E2D4A7 /* MainWindow.xib in Resources */,
+				806EB809138F91A700E2D4A7 /* PlaygroundView.xib in Resources */,
+				80913CD7139960F100FE19D5 /* Icon.png in Resources */,
+				80913CD8139960F100FE19D5 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806EB7E7138F91A700E2D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806EB7FD138F91A700E2D4A7 /* main.m in Sources */,
+				806EB800138F91A700E2D4A7 /* AHEasingAppDelegate.m in Sources */,
+				806EB806138F91A700E2D4A7 /* PlaygroundViewController.m in Sources */,
+				806EB82A138F91C700E2D4A7 /* easing.c in Sources */,
+				80521A7A1398175D007386E6 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				80913CD41399414800FE19D5 /* EasingFunctionGraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		806EB7F8138F91A700E2D4A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806EB7F9138F91A700E2D4A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		806EB801138F91A700E2D4A7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806EB802138F91A700E2D4A7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		806EB807138F91A700E2D4A7 /* PlaygroundView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806EB808138F91A700E2D4A7 /* en */,
+			);
+			name = PlaygroundView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806EB820138F91A700E2D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		806EB821138F91A700E2D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		806EB823138F91A700E2D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AHEasing/AHEasing-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "AHEasing/AHEasing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		806EB824138F91A700E2D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AHEasing/AHEasing-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "AHEasing/AHEasing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806EB7E5138F91A700E2D4A7 /* Build configuration list for PBXProject "AHEasing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806EB820138F91A700E2D4A7 /* Debug */,
+				806EB821138F91A700E2D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806EB822138F91A700E2D4A7 /* Build configuration list for PBXNativeTarget "AHEasing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806EB823138F91A700E2D4A7 /* Debug */,
+				806EB824138F91A700E2D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 806EB7E2138F91A700E2D4A7 /* Project object */;
+}
